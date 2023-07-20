@@ -14,7 +14,7 @@ pip install -r requirements.txt
 1. Data Preparation:
 
 Place your training dataset in the appropriate directory. The project expects the dataset to be organized as follows:
-
+```bash
 data/
 ├── product/
 │ ├── train/
@@ -30,6 +30,7 @@ data/
 │ └── test/
 │ ├── Category_1/
 │ └── ...
+```
 2. Model Configuration:
 
 In cam_test.py and product_classifier.py, you can modify the parameters under the section Parameters to choose the base model (base_id) and the path to the saved training weights (weights_filename) that the Siamese model will use.
