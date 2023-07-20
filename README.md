@@ -17,19 +17,19 @@ Place your training dataset in the appropriate directory. The project expects th
 
 data/
 ├── product/
-│   ├── train/
-│   │   ├── Category_1/
-│   │   │   ├── image_1.jpg
-│   │   │   ├── image_2.jpg
-│   │   │   └── ...
-│   │   ├── Category_2/
-│   │   └── ...
-│   ├── val/
-│   │   ├── Category_1/
-│   │   └── ...
-│   └── test/
-│       ├── Category_1/
-│       └── ...
+│ ├── train/
+│ │ ├── Category_1/
+│ │ │ ├── image_1.jpg
+│ │ │ ├── image_2.jpg
+│ │ │ └── ...
+│ │ ├── Category_2/
+│ │ └── ...
+│ ├── val/
+│ │ ├── Category_1/
+│ │ └── ...
+│ └── test/
+│ ├── Category_1/
+│ └── ...
 2. Model Configuration:
 
 In cam_test.py and product_classifier.py, you can modify the parameters under the section Parameters to choose the base model (base_id) and the path to the saved training weights (weights_filename) that the Siamese model will use.
