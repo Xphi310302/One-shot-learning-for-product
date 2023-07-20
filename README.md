@@ -47,3 +47,4 @@ To test the product classifier, execute cam_test.py. This script will open a web
 - This project utilizes the power of transfer learning and Siamese Neural Networks to achieve accurate product classification.
 - The base models used for feature extraction are provided by the Keras library.
 - The dataset used for training and testing is collected from [Freiburg Groceries dataset](http://aisdatasets.informatik.uni-freiburg.de/freiburg_groceries_dataset/)
+- Thanks to [hNao17](https://github.com/hNao17) for inspiring me this project
