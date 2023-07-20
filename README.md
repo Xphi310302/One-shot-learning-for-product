@@ -1,4 +1,5 @@
 # One shot learning for product classfication
+[!Example](test.jpg)
 ## Overview
 This project implements a product classifier using a Siamese Neural Network with pre-trained base models. The classifier is designed to identify different product categories based on images provided in the training dataset. It utilizes transfer learning techniques to leverage the features learned from a pre-trained base model to achieve better classification accuracy.
 
