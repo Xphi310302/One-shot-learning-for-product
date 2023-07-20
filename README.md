@@ -9,7 +9,7 @@ Ensure you have Python and pip installed on your system. Use the following comma
 
 ```bash
 pip install -r requirements.txt
-``
+```
 ## How to Use
 1. Data Preparation:
 
